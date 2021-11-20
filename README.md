@@ -1,4 +1,4 @@
-# cosc472-Cryptography
+# Project 2: Cryptography Algorithms Implementation
 
 ## Features
 - [x] Caesar Cipher
