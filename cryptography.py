@@ -18,7 +18,7 @@ def outputfile(text):
 class Caesar:
 	def __init__(self, msg, key, cipher):
 		self.plaintext = msg
-		self.key = key # int
+		self.key = key%26 # int
 		self.ciphertext = cipher
 	
 	def encrypt(self):
